@@ -28,15 +28,17 @@ main {
 
 .menu-tarjeta {
     background-color: #FFFFB3;
+    width: 450px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 16px;
+    padding: 20px;
     text-align: center;
 }
 
 .menu-tarjeta img {
-    max-width: 100%;
+    width: 80%;
+    height: auto;
     border-radius: 8px;
 }
 
@@ -65,7 +67,7 @@ main {
     background-color: #e65500;
 }
 
-/** FOOTER **/
+/*-------------------------FOOTER-------------------------------*/
 
 .footer {
     background-color: #333;
@@ -293,14 +295,50 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
+
 @media (max-width: 768px) {
-    main {
+    
+    .menu-cont {
+        grid-template-columns: 1fr; 
+        gap: 20px; 
         padding: 10px;
     }
 
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .menu-tarjeta {
+        padding: 20px;
     }
+
+    .footer {
+        flex-direction: column; 
+        text-align: center; 
+        padding: 20px;
+    }
+
+    .footer-seccion {
+        margin-bottom: 15px; 
+    }
+
+    .footer-seccion:last-child {
+        margin-bottom: 0; 
+    }
+
+    .conten-contacto {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    
+    .img-avatar {
+        order: 1; 
+        margin-bottom: 20px;
+    }
+
+    
+    .formulario-contacto {
+        order: 2; 
+        width: 100%; 
+        max-width: 90%;
+    }
+
 }
