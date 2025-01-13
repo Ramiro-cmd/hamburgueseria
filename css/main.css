@@ -5,7 +5,7 @@ html, body {
     flex-direction: column;
 }
 main {
-    flex: 1; /* Toma el espacio restante para empujar el footer hacia abajo */
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +61,7 @@ main {
 }
 
 /** FOOTER **/
-/* General styles for footer */
+
 .footer {
     background-color: #333;
     color: #fff;
@@ -70,7 +70,7 @@ main {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    flex-shrink: 0; /* Evita que el footer colapse */
+    flex-shrink: 0; 
 }
 
 .footer-section {
@@ -78,7 +78,7 @@ main {
     margin: 10px;
 }
 
-/* Left section styles */
+
 .footer-left {
     text-align: left;
 }
@@ -100,18 +100,18 @@ main {
     text-decoration: underline;
 }
 
-/* Center section styles */
+
 .footer-center {
     text-align: center;
-    align-self: center; /* Center text vertically */
+    align-self: center; 
 }
 
-/* Right section styles */
+
 .footer-right {
     text-align: right;
 }
 
-/*  ------------------------- UBICACION-------------------------------*/
+/*------------------------- UBICACION-------------------------------*/
 
 .location-main {
     display: flex;
@@ -154,9 +154,56 @@ main {
     height: 300px;
 }
 
+/*-------------------------CONTACTO-------------------------------*/
+.main-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100%;
+    background-color: #f9f9f9;
+}
+
+.conten-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formulario-contacto {
+    flex: 1;
+    max-width: 500px;
+}
+
+.formulario-contacto h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.img-avatar {
+    flex: 1;
+    text-align: center;
+}
+
+.avatar {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.texto-cont {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
 
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     main {
         padding: 10px;
