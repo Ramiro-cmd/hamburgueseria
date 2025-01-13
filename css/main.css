@@ -6,15 +6,17 @@ html, body {
 
 }
 
-
 main {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.menu-container {
+/*------------------------- MENU-------------------------------*/
+.main-menu{
+    background-color: #DCAB6B ;
+}
+.menu-cont {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -24,8 +26,8 @@ main {
     margin: 0 auto;
 }
 
-.menu-item {
-    background-color: #fff;
+.menu-tarjeta {
+    background-color: #FFFFB3;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -33,24 +35,24 @@ main {
     text-align: center;
 }
 
-.menu-item img {
+.menu-tarjeta img {
     max-width: 100%;
     border-radius: 8px;
 }
 
-.menu-item h3 {
+.menu-tarjeta h3 {
     font-size: 1.5em;
     margin: 10px 0;
     color: #333;
 }
 
-.menu-item p {
+.menu-tarjeta p {
     font-size: 1em;
     color: #666;
     margin-bottom: 15px;
 }
 
-.menu-item button {
+.menu-tarjeta button {
     background-color: #ff6600;
     color: #fff;
     border: none;
@@ -59,7 +61,7 @@ main {
     cursor: pointer;
     font-size: 1em;
 }
-.menu-item button:hover {
+.menu-tarjeta button:hover {
     background-color: #e65500;
 }
 
@@ -76,13 +78,13 @@ main {
     flex-shrink: 0; 
 }
 
-.footer-section {
+.footer-seccion {
     flex: 1;
     margin: 10px;
 }
 
 
-.footer-left {
+.izq {
     text-align: left;
 }
 
@@ -99,34 +101,29 @@ main {
     font-size: 1em;
 }
 
-.footer-social a:hover {
-    text-decoration: underline;
-}
-
-
-.footer-center {
+.centro {
     text-align: center;
     align-self: center; 
 }
 
 
-.footer-right {
+.derecha {
     text-align: right;
 }
 
 /*------------------------- UBICACION-------------------------------*/
 
-.location-main {
+.main-ubicacion {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     flex-direction: column;
-    background-color: #f9f9f9;
+    background-color: #DCAB6B;
     flex: 1;
 }
 
-.location-container {
+.ubicacion-cont {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -134,23 +131,23 @@ main {
     text-align: center;
 }
 
-.location-image {
-    max-width: 1200px;
+.imagen-local {
+    max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.location-info {    
+.ubicacion-text {    
     max-width: 600px;
 }
 
-.location-info h1 {
+.ubicacion-text h1 {
     font-size: 2em;
-    color: #333;
+    color: black;
     margin-bottom: 20px;
 }
 
-.location-info iframe {
+.ubicacion-text iframe {
     border: none;
     border-radius: 8px;
     width: 100%;
@@ -164,7 +161,7 @@ main {
     align-items: center;
     padding: 20px;
     min-height: 100%;
-    background-color: #f9f9f9;
+    background-color: #DCAB6B;
 }
 
 .conten-contacto {
@@ -184,7 +181,7 @@ main {
 .formulario-contacto h1 {
     margin-bottom: 20px;
     font-size: 2em;
-    color: #333;
+    color: black;
 }
 
 .img-avatar {
@@ -202,7 +199,7 @@ main {
 
 .texto-cont {
     font-size: 1em;
-    color: #666;
+    color: black;
     margin-top: 10px;
 }
 
