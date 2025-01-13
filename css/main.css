@@ -3,7 +3,10 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
+
 }
+
+
 main {
     flex: 1;
     display: flex;
@@ -84,7 +87,7 @@ main {
 }
 
 .footer-logo {
-    max-width: 150px;
+    width: 60px;
     margin-bottom: 10px;
 }
 
@@ -201,6 +204,50 @@ main {
     font-size: 1em;
     color: #666;
     margin-top: 10px;
+}
+
+/*-------------------------INICIO-------------------------------*/
+/* Main */
+.main-inicio {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #DCAB6B;
+}
+
+.contenido {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.main-logo {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.descp {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.boton-menu {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-menu:hover {
+    background-color: #e65500;
 }
 
 
