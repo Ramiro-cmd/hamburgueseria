@@ -204,7 +204,6 @@ main {
 }
 
 /*-------------------------INICIO-------------------------------*/
-/* Main */
 .main-inicio {
     flex: 1;
     display: flex;
@@ -247,6 +246,52 @@ main {
     background-color: #e65500;
 }
 
+/*-------------------------INFORMACION-------------------------------*/
+.main-info {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #DCAB6B;
+}
+
+.info-cont {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    text-align: left;
+}
+
+.info-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.info-text h1 {
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.info-text p {
+    font-size: 1.1em;
+    color: black;
+    line-height: 1.6;
+}
+
+.info-image {
+    flex: 1;
+    max-width: 500px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 @media (max-width: 768px) {
     main {
